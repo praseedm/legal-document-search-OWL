@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"employees","startColumn":"A","endColumn":"D","startRow":"2","endRow":"+","comment":"","rule":"Individual: @A* \nTypes: Party    \n\tFacts: party_name @B*,\n\t\tparty_address @C*,\n\t\tparty_role @D*","active":true}]}

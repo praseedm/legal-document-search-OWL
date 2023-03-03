@@ -1,0 +1,6 @@
+PREFIX lds: <http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#>
+SELECT ?Status ?status_value ?LegalDocument WHERE {
+  
+  ?LegalDocument lds:hasStatus ?Status.
+  ?Status lds:status_value ?status_value.
+} LIMIT 10
