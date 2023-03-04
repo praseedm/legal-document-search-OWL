@@ -152,47 +152,16 @@
                   <thead>
                     <tr>
                       <th>Document</th>
-                      <th>Term length</th>
-                      <th>Effective date</th>
-                      <th>Termination date</th>
-                      <th>Notice period</th>
-                      <th>Status</th>
+                      <th>Remuneration value</th>
+                      <th>Currency</th>
                     </tr>
                   </thead>
                   <tbody>
                     {% for result in results %}
                     <tr>
                       <td>{{result.document_id.value}}</td>
-                      <td>{{result.term_length.value}}</td>
-                      <td>{{result.effective_date.value}}</td>
-                      <td>{{result.termination_date.value}}</td>
-                      <td>"{{result.notice_period.value}} days"</td>
-
-                      <td>
-                        {%if result.status_value.value == "active" %}
-
-                        <button
-                          type="button"
-                          class="btn btn-success position-relative"
-                        >
-                          <span>{{result.status_value.value}}</span>
-                        </button>
-                        {%elif result.status_value.value == "closed" %}
-                        <button
-                          type="button"
-                          class="btn btn-danger position-relative"
-                        >
-                          <span>{{result.status_value.value}}</span>
-                        </button>
-                        {%else%}
-                        <button
-                          type="button"
-                          class="btn btn-primary position-relative"
-                        >
-                          <span>{{result.status_value.value}}</span>
-                        </button>
-                        {%endif%}
-                      </td>
+                      <td>{{result.remuneration_amount.value}}</td>
+                      <td>{{result.currency.value}}</td>
                     </tr>
                     {% endfor %}
                   </tbody>

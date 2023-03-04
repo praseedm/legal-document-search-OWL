@@ -650,6 +650,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#EmploymentAgreement_0144150f-1d34-48d7-bb7a-782c407119e3">
         <rdf:type rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#EmploymentAgreement"/>
+        <hasEmployee rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Party_9514cfe8-20ea-452e-811c-1a3d52cbb113"/>
+        <hasEmployer rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Party_a3d1419c-d788-45e2-8597-7e00fff42d2e"/>
         <hasRemuneration rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Amount_20ce8914-249b-4947-8651-78a8f94d2144"/>
         <hasStatus rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Status_6c538ecb-b2eb-4c0a-a9c1-7a0ea6874004"/>
         <document_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EmploymentAgreement_0144150f-1d34-48d7-bb7a-782c407119e3</document_id>
@@ -665,6 +667,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#EmploymentAgreement_1255c89d-5f19-4aaf-b82c-c8d4f2192a7a">
         <rdf:type rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#EmploymentAgreement"/>
+        <hasEmployee rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Party_06f45789-0a66-4ff2-8594-3cb5b099abf7"/>
+        <hasEmployer rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Party_b73e7302-5a0f-4fd2-844b-312b3eac1d16"/>
         <hasRemuneration rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Amount_238c85e6-a814-4436-ad63-f8a442149b30"/>
         <hasStatus rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Status_76bc03f8-7032-4e61-826a-240e0a22853a"/>
         <document_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EmploymentAgreement_1255c89d-5f19-4aaf-b82c-c8d4f2192a7a</document_id>
@@ -680,6 +684,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#EmploymentAgreement_1d4c776c-59c0-47b0-8812-49921fb393fb">
         <rdf:type rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#EmploymentAgreement"/>
+        <hasEmployee rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Party_06a4bf0c-3688-4f5f-84e8-858e57fc469e"/>
+        <hasEmployer rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Party_409c91b8-665b-4083-9300-641f03f23eab"/>
         <hasRemuneration rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Amount_ba73a1ac-e30b-421c-a3dd-0575bb025ef7"/>
         <hasStatus rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Status_bdd8620d-40ab-457c-967a-d4569bf6612a"/>
         <document_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EmploymentAgreement_1d4c776c-59c0-47b0-8812-49921fb393fb</document_id>
@@ -695,6 +701,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#EmploymentAgreement_1f9d4f7a-20e9-4dc6-b80c-52ecfe9d02d6">
         <rdf:type rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#EmploymentAgreement"/>
+        <hasEmployee rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Party_352850c6-7097-4ef1-83f8-7fe97f34d62c"/>
+        <hasEmployer rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Party_542647d3-43e2-4a18-9db9-327fa820b918"/>
         <hasRemuneration rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Amount_a4c1da79-3f76-4c96-9fca-44994ef10ba8"/>
         <hasStatus rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Status_b0c61c06-640e-4648-8dd6-34cf2ee52e10"/>
         <document_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EmploymentAgreement_1f9d4f7a-20e9-4dc6-b80c-52ecfe9d02d6</document_id>
@@ -710,6 +718,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#EmploymentAgreement_44ddc145-48b3-4e0d-a537-d607923beeed">
         <rdf:type rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#EmploymentAgreement"/>
+        <hasEmployee rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Party_7ce7cdfa-c2c5-4ee4-98c2-6c305a68c8b0"/>
+        <hasEmployer rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Party_e4334aab-1ba9-4c2a-88eb-1843130879a9"/>
         <hasRemuneration rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Amount_1c7f8ffa-4f59-4ed6-9de8-f252896001f2"/>
         <hasStatus rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Status_9d320cdc-decf-438b-b10c-326db2174f10"/>
         <document_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EmploymentAgreement_44ddc145-48b3-4e0d-a537-d607923beeed</document_id>
@@ -725,6 +735,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#EmploymentAgreement_806abdd9-8d29-4a42-ae09-944cf6f0ae20">
         <rdf:type rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#EmploymentAgreement"/>
+        <hasEmployee rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Party_76f6cc67-b5fe-42f3-aebe-bb74a1729ee0"/>
+        <hasEmployer rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Party_6e8f2972-2e9f-4ee0-810b-9b7302fbb35a"/>
         <hasRemuneration rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Amount_3a53beff-ef03-4149-9c49-ffd4bc04c01a"/>
         <hasStatus rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Status_37b35adb-ae05-40bc-aae2-e2faacd8a258"/>
         <document_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EmploymentAgreement_806abdd9-8d29-4a42-ae09-944cf6f0ae20</document_id>
@@ -740,6 +752,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#EmploymentAgreement_83b7b3ef-45a3-425d-90e0-ce06af30af2e">
         <rdf:type rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#EmploymentAgreement"/>
+        <hasEmployee rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Party_5b9fadac-010e-4894-8a52-d2e9b8294573"/>
+        <hasEmployer rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Party_7eae9c6f-ddc7-4c6d-9df1-96db597a403d"/>
         <hasRemuneration rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Amount_e15092b6-ec1c-4592-88b0-31cbba429b5c"/>
         <hasStatus rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Status_d03ba016-6b60-4044-8fb8-01edac859aef"/>
         <document_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EmploymentAgreement_83b7b3ef-45a3-425d-90e0-ce06af30af2e</document_id>
@@ -755,6 +769,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#EmploymentAgreement_8684e402-4461-4cc6-afa1-fdf5b19385aa">
         <rdf:type rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#EmploymentAgreement"/>
+        <hasEmployee rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Party_4c658598-9243-4af7-8aa5-9e6634c5e14e"/>
+        <hasEmployer rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Party_c4e1c821-caf9-4044-a899-2d7954e92e72"/>
         <hasRemuneration rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Amount_2625dd55-4563-407d-98c2-a03f17320f80"/>
         <hasStatus rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Status_e748fdee-73ab-4803-a589-b4765a475956"/>
         <document_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EmploymentAgreement_8684e402-4461-4cc6-afa1-fdf5b19385aa</document_id>
@@ -787,6 +803,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#EmploymentAgreement_ec821ba1-8cbb-4c1d-bb3b-aa65c41cd124">
         <rdf:type rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#EmploymentAgreement"/>
+        <hasEmployee rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Party_82c7d6f3-5734-4405-a2e2-be79aead79c7"/>
+        <hasEmployer rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Party_abb6fb58-9327-4f95-baf1-11ef6644337e"/>
         <hasRemuneration rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Amount_30902b3e-252e-4876-9276-7af007e413e0"/>
         <hasStatus rdf:resource="http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#Status_f456d429-77bf-460d-aca2-5f4f890443d9"/>
         <document_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EmploymentAgreement_ec821ba1-8cbb-4c1d-bb3b-aa65c41cd124</document_id>

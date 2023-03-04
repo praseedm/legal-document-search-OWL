@@ -17,4 +17,10 @@ from django.contrib import admin
 from django.urls import path
 from . import views
 
-urlpatterns = [path("", views.index, name="index")]
+urlpatterns = [
+    path("", views.index, name="index"),
+    path("parties/", views.parties_info, name="parties_info"),
+    path("remunerations/", views.remunerations_info, name="remunerations_info"),
+    path("active_docs/", views.active_documents, name="active_docs"),
+    path("pending_docs/", views.pending_documents, name="pending_docs"),
+]
