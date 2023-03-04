@@ -170,14 +170,22 @@
                   <thead>
                     <tr>
                       <th>Agreement</th>
-                      <th>Status value</th>
+                      <th>Term length</th>
+                      <th>Effective date</th>
+                      <th>Termination date</th>
+                      <th>Notice period</th>
                       <th>Status</th>
                     </tr>
                   </thead>
                   <tbody>
                     {% for result in results %}
                     <tr>
-                      <td>{{result.LegalDocument.value}}</td>
+                      <td>{{result.document_id.value}}</td>
+                      <td>{{result.term_length.value}}</td>
+                      <td>{{result.effective_date.value}}</td>
+                      <td>{{result.termination_date.value}}</td>
+                      <td>"{{result.notice_period.value}} days"</td>
+
                       <td>
                         {%if result.status_value.value == "active" %}
 
@@ -203,7 +211,6 @@
                         </button>
                         {%endif%}
                       </td>
-                      <td>{{result.Status.value}}</td>
                     </tr>
                     {% endfor %}
                   </tbody>

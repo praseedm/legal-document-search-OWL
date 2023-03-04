@@ -2,15 +2,21 @@ from SPARQLWrapper import SPARQLWrapper2
 
 
 class SPARQL_Model:
-    def get_statuses(self):
+    def get_document_info(self):
         sparql = SPARQLWrapper2("http://localhost:3030/legal_document_search/")
         query = """
                 PREFIX lds: <http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#>
-                SELECT ?Status ?status_value ?LegalDocument WHERE {
-  
-                    ?LegalDocument lds:hasStatus ?Status.
-                    ?Status lds:status_value ?status_value.
-                } LIMIT 10
+                    SELECT ?document_id ?term_length ?status_value ?effective_date ?termination_date
+                        ?notice_period WHERE {
+                        ?LegalDocument lds:document_id ?document_id.
+                        ?LegalDocument lds:term_length ?term_length.
+                        ?LegalDocument lds:effective_date ?effective_date.
+                        ?LegalDocument lds:termination_date ?termination_date.
+                        ?LegalDocument lds:notice_period ?notice_period.
+                        
+                        ?LegalDocument lds:hasStatus ?Status.
+                        ?Status lds:status_value ?status_value.
+                    }
         """
         sparql.setQuery(query)
         results = sparql.query().bindings
