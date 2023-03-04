@@ -26,3 +26,8 @@ def active_documents(request):
 def pending_documents(request):
     results = SPARQL_Model().filter_document_bystatus(status="pending")
     return render(request, "active_docs.html", {"results": results})
+
+
+def remunerations_filter(request):
+    results = SPARQL_Model().remuneration_filter()
+    return render(request, "filter.html", {"results": results})

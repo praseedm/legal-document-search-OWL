@@ -82,6 +82,24 @@ class SPARQL_Model:
         results = sparql.query().bindings
         return results
 
+    def remuneration_filter(self):
+        sparql = SPARQLWrapper2("http://localhost:3030/legal_document_search/")
+        query = """
+                PREFIX lds: <http://www.semanticweb.org/master/ontologies/2023/1/legal_document_search#>
+                SELECT ?document_id ?remuneration_amount ?currency WHERE {
+                    ?LegalDocument lds:document_id ?document_id.
+                    
+                    ?LegalDocument lds:hasRemuneration ?Remuneration.
+                    ?Remuneration lds:amount_value ?remuneration_amount.
+                    ?Remuneration lds:amount_currency ?currency.
+
+                    FILTER (?remuneration_amount > 4000 )
+                } ORDER BY ?remuneration_amount
+        """
+        sparql.setQuery(query)
+        results = sparql.query().bindings
+        return results
+
     def test_db_pedia(self):
         sparql = SPARQLWrapper2("http://dbpedia.org/sparql")
         sparql.setQuery(

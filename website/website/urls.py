@@ -23,4 +23,5 @@ urlpatterns = [
     path("remunerations/", views.remunerations_info, name="remunerations_info"),
     path("active_docs/", views.active_documents, name="active_docs"),
     path("pending_docs/", views.pending_documents, name="pending_docs"),
+    path("filter/", views.remunerations_filter, name="filter"),
 ]
