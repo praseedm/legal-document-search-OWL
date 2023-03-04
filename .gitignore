@@ -109,7 +109,7 @@ venv.bak/
 /site 
 
 #
-.apache-jena-fuseki-4.7.0/run/*
+apache-jena-fuseki-4.7.0/run/*
 
 # mypy 
 .mypy_cache/ 
