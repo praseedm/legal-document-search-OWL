@@ -8,5 +8,11 @@ This makes it possible to quickly locate relevant documents and extract specific
 
 ***Designed Ontology for Legal Documents and Designed a Search interface using Django***
 
+Individuals Ontograph
+![Individuals Ontograph](https://github.com/praseedm/legal-document-search-OWL/blob/master/Screenshots/individuals%20ontograf.png)
+
 Ontology refers to a formal, machine-readable representation of knowledge that captures the concepts and relationships in a particular domain. 
 Ontologies provide a common vocabulary and structure for describing and organizing data, making it easier to search, analyze, and share information.
+
+
+*A project for education purpose only.*
