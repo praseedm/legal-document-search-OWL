@@ -6,13 +6,16 @@ Semantic web technologies provide a powerful framework for building LDMS that ca
 In an LDMS that uses semantic web technologies, legal documents are stored as machine-readable data that can be searched, queried, and analyzed using advanced semantic search techniques.
 This makes it possible to quickly locate relevant documents and extract specific data points, such as key terms, parties involved, and dates.
 
+Ontology refers to a formal, machine-readable representation of knowledge that captures the concepts and relationships in a particular domain. 
+Ontologies provide a common vocabulary and structure for describing and organizing data, making it easier to search, analyze, and share information.
+
 ***Designed Ontology for Legal Documents and Designed a Search interface using Django***
 
 Individuals Ontograph
 ![Individuals Ontograph](https://github.com/praseedm/legal-document-search-OWL/blob/master/Screenshots/individuals%20ontograf.png)
 
-Ontology refers to a formal, machine-readable representation of knowledge that captures the concepts and relationships in a particular domain. 
-Ontologies provide a common vocabulary and structure for describing and organizing data, making it easier to search, analyze, and share information.
+Search Interface in Django
+![Search interface](https://github.com/praseedm/legal-document-search-OWL/blob/master/Screenshots/website%201.png)
 
 
 *A project for education purpose only.*
